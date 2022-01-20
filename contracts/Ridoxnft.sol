@@ -1,5 +1,5 @@
 //SPDX-License-Identifier: MIT
-
+// ridox
 pragma solidity ^0.8.0;
 
 import "@openzeppelin/contracts/token/ERC721/ERC721.sol";
@@ -12,7 +12,7 @@ contract Ridoxnft is ERC721URIStorage, Ownable {
 
     Counters.Counter private _tokenIds;
 
-    constructor() public ERC721("RidoxNFT", "NFT") {}
+    constructor() public ERC721("Ridoxnft", "RDX") {}
 
     function minNFT(address recipient, string memory tokenURI)
         public
